@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1050103087761",
+    "firebase_url": "https://myproject-ebe7a.firebaseio.com",
+    "project_id": "myproject-ebe7a",
+    "storage_bucket": "myproject-ebe7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050103087761:android:22c8c220a898300c80b530",
+        "android_client_info": {
+          "package_name": "th.ac.kku.cis.mobileapp.MyCookingApplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050103087761-ap09qipr1hhq5phgh1a6qfiuj4k3uo94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.kku.cis.mobileapp.MyCookingApplication",
+            "certificate_hash": "cb1c54a91e183b5fb490a026f5ed4060c35ffd07"
+          }
+        },
+        {
+          "client_id": "1050103087761-866ap99011e4ahsudqgvtqsctb5gho9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP02yJzELYdolmdVMbc_WgP7p05ESupVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050103087761-866ap99011e4ahsudqgvtqsctb5gho9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
