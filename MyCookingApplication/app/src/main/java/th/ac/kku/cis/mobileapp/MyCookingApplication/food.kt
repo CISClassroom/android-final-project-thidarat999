@@ -8,6 +8,7 @@ class food {
         fun create(): food = food()
     }
     var name_f: String? = null
+    var staple_f: String? = null
     var step_f: String? = null
 }
 

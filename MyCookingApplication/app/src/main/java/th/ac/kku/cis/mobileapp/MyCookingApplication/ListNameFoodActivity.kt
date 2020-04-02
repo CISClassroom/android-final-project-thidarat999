@@ -66,6 +66,7 @@ class ListNameFoodActivity : AppCompatActivity() {
 
                             todoItem.name_f = map.get("name_f") as String?
                             todoItem.step_f = map.get("step_f") as String?
+                            todoItem.staple_f = map.get("staple_f") as String?
                             toDoItemList!!.add(todoItem);
                             adapter.notifyDataSetChanged()
                         //}
@@ -82,6 +83,7 @@ class ListNameFoodActivity : AppCompatActivity() {
             val intent = Intent(this,FoodShowActivity::class.java)
             intent.putExtra("name_f", selectedItem.name_f)
             intent.putExtra("step_f", selectedItem.step_f)
+            intent.putExtra("staple_f", selectedItem.staple_f)
             startActivity(intent)
             finish()
         }

@@ -63,7 +63,7 @@ class CreateFoodActivity : AppCompatActivity() {
         }
         save_bt.setOnClickListener {
 
-            AddData("String")
+            AddData()
             FileUploader()
 
         }
@@ -95,13 +95,14 @@ class CreateFoodActivity : AppCompatActivity() {
     }
 
 
-    fun AddData(data: String) {
+    fun AddData() {
 
         var name = getIntent().getStringExtra("name")
         var newData: food = food.create()
         val obj = mDatabase.child("Food").push()
 
         newData.name_f = AddNameFood.text.toString()
+        newData.staple_f = AddNameStaple.text.toString()
         newData.step_f = AddNameStep.text.toString()
 
 //        newData.EvenId = obj.key
