@@ -24,8 +24,8 @@ class FoodShowActivity : AppCompatActivity() {
         var step_food = getIntent().getStringExtra("step_f")
 
         textView5.text = name_food
-        textView11.text = staple_food
-        textView9.text = step_food
+        textView9.text = staple_food
+        textView11.text = step_food
 
 
 

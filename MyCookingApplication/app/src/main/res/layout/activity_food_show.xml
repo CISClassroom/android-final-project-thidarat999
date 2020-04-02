@@ -12,7 +12,8 @@
         android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="5" />
+        android:layout_marginTop="100dp"
+        android:layout_weight="0.5" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -118,7 +119,8 @@
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="3" />
+        android:layout_marginTop="100dp"
+        android:layout_weight="0" />
 
     <!--    <ListView-->
     <!--        android:id="@+id/lits_s"-->
